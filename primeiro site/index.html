@@ -1,26 +1,53 @@
+<!--ESTA TAG É UMA TAG DE COMENTÁRIO -->
+<!--Comando para indicar que a página é desenvolvida na linguagem HTML -->
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>primeiro site curso de desenvolvimento web</title>
-</head> 
-<body>
- <Center>
-     <h1> Primeiro site curso de desenvolvimento web</h1>
+<!--HTML VAI COMPORTAR A ESTRUTURA DO NOSSO PROJETO-->
+<html lang = "pt-br"><!--pt-br vai indicar o idioma em que a página está sendo desenvolvido-->
+    <head><!--Contém as regras, título e conexões com js e o css-->
+        <meta charset = "UFT-8"> <!-- Adequa a maioria dos caracteres em diferentes idiomas-->
+        <title>Primeiro site</title><!-- O titítulo que aparecerá da nossa página no navegador-->
+    </head>
+    <body>
+        <center>
+        <!--TAGS DE TÍTULO-->
+        <h1>Primeiro Site Curso de Desenvolvimento Web</h1><!-- O número indica o tamanho do título sendo 1 maior .... 6 o menor-->
 
-     
-     <br>
-     <img src="scr/imagens/foto.mundo.jpg" alt="mundo" width="130" height="130">
-     <p> <h6>Fonte: https://www.google.com/search?q=filantropia.ong//informacao/vamos-mudar&sca_</h6>
-     </p> o primeiro código que todo desenvolvedor imprime na tela é o famoso <b>hello world</b>, isso geralmente é feito em cursos de desenvolvimento<i>back end</i> como <b> Programação Python, Java, Kotlin...</b> Mas nós, turma do Desenvolvimento Web não poderíamos ficar de fora, afinal <b> também somos Programadores!</b> Então:
-    <h2> Olá mundo</h2>
-    <img src="programador.jpg" alt="programador" width="130" height="130">
-    <p>Olá, este é o meu primeiro código html, estou cursando um <b> treinamento de desenvolvimento web,</b> e o maior objetivo é <u>sair do curso</u> com o site do do meu negócio <i> lindo e funcional!!</i> 🤩🤩🤩</p>
-    <img src="scr\imagens\programador.gif" alt="programador gif" width="130" height="130">
+        <!-- Inserir imagem no site -->
+        <img src="src\imagens\mundo.png" alt="Mundo" width="300" height="200">
+        <h6>Fonte: https://www.filantropia.ong/informacao/vamos-mudar-o-mundo</h6>
 
- </Center>
+        <p>O primeiro código que todo desenvolvedor imprime na tela é o famoso <strong>hello world</strong>, isso geralmente é feito em cursos de desenvolvimento <em>back end</em> como <b>Programação Python, JAVA, Kotlin...</b>Mas nós, turma do Desenvolvimento Web não poderíamos ficar de fora, afinal <b>também somos Programadores!</b> Então:</p>
+        <br>
+        <h4>Olá Mundo!!!</h4>
+        
+        <br><!--Pular o espaço de uma linha-->
+        
+        <!-- Inserir imagem no site -->
+        <img src="src\imagens\desenvolvedor.jpg" alt="Mundo" width="200" height="200">
+        </center>
+       
+        
+        <!--Para textos maiores, parágrafos utilizamos a tag p -->
+        <!--<b> coloca o texto em negrito, <i> coloca o texto em itálico e <u> faz o sublinhado no texto-->
+            <center>
+        <p>Olá, este é o meu primeiro código em html, estou cursando um <b>treinamento de desenvolvimento web</b>, e o meu maior objetivo é <u>sair do curso</u> com o site do meu negócio <i>lindo</i> e <i>funcional</i>!
+            🤩🤩🤩
+        </p>
+            <!--A tag <a> vai interligar páginas, no nosso caso quando usamos _parent estamos ligando páginas do nosso projeto(site)-->
+            <a href="links.html" target="_parent">veja mais sobre conceito de links</a>
+        </center>
+           <center>
+            <div><! Tag Div organiza os elementos dentro dela lado a lado-->
+                <br>
+                <br>
+                <button>Página inicial</button>
+                <button>entrada de dados</button>
+            </div>
+           </center>
+           <br>
 
+           <center><a href="links.html" target="_parent"><img src="src/imagens/SENAIlogo.jpg" alt="" width="150" height="50"></a></center>
 
-</body>
+    </body>
+
 </html>
