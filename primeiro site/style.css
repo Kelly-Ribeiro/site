@@ -13,4 +13,16 @@ body{text-align: center; padding-top: 50px}
 .estrelas input[type=radio]:checked ~ label i.fa:before {
   color: #CCC;
 }
+table{
+  border-collapse:collapse;
+  width: 50%;
+  margin:auto;
+  }
+tr,td{
+  border: 1px solid rgb(37, 150, 190)
+}
+#cabecalho{
+/*colocando uma cor na primeira*/  
+color:rgb(10, 11, 10);/*cor da letra*/
+background-color:rgb(226,135,67);/*cor do fundo/*
 }

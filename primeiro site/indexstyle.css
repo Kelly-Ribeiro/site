@@ -1,0 +1,11 @@
+body{
+    /*adiciona um espaço da borda para o conteúdo*/
+    padding-top: 70px;
+    /*adiciona um espaço da borda esquerda para o conteúdo*/
+    padding-left: 15%;
+     /*adiciona um espaço da borda direita para o conteúdo*/
+    padding-right: 15%;
+    /*adiciona um espaço da borda inferior para o conteúdo*/
+    padding-bottom: 20%;
+
+}
