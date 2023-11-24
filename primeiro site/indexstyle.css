@@ -1,11 +1,59 @@
 body{
+
+    /*Colocando imagem como plano de fundo*/
+    /*background-imagem:url();*/
+    /*background-color: aliceblue;muda a cor de fundo da pagina*/
+    background:linear-gradient(rgb(189, 210, 221),rgb(233, 233, 215));
     /*adiciona um espaço da borda para o conteúdo*/
-    padding-top: 70px;
+    padding-top: 0px;
     /*adiciona um espaço da borda esquerda para o conteúdo*/
-    padding-left: 15%;
-     /*adiciona um espaço da borda direita para o conteúdo*/
-    padding-right: 15%;
+    padding-left: 0%;
+    /*adiciona um espaço da borda direita para o conteúdo*/
+    padding-right: 0%;
     /*adiciona um espaço da borda inferior para o conteúdo*/
-    padding-bottom: 20%;
+    padding-bottom: 10%;
+}
+ #menu {
+    /*Remover o marcador da lista*/
+    list-style-type: none;
+    margin: 0;
+   
+    padding: 0;
+    width: 300px;/*largura*/
+    background-color: rgba(0, 255, 255, 0);
+    height:100%;
+    position: fixed;
+    /*Ativa a barra de rolagem se houver muito conteúdo*/
+    overflow: auto;
+}
+li a{
+    display:block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(7, 218, 233);
+    margin-top: 10px;
+    text-decoration:none;
+    text-align:center;
+    color: rgb(18, 1, 1);
+}
+
+li a:hover {
+    
+    background-color: azure;
+    color:rgb(16, 16, 0);
+}
+
+item a{
+    /* alinhando a linha horizontalmente*/
+    text-align: center;
+    font-size: 20px;/*tamanho da letra*/
+    font-family: serif;/*tipo da letra*/
 
 }
+p{
+    width: 40%;
+    align-items: center;
+}
+
+
+
