@@ -1,19 +1,30 @@
-<!--ESTA TAG É UMA TAG DE COOMENTÁRIO -->
+<!--ESTA TAG É UMA TAG DE COMENTÁRIO -->
 <!--Comando para indicar que a página é desenvolvida na linguagem HTML -->
 <!DOCTYPE html>
 <!--HTML VAI COMPORTAR A ESTRUTURA DO NOSSO PROJETO-->
 <html lang = "pt-br"><!--pt-br vai indicar o idioma em que a página está sendo desenvolvido-->
     <head><!--Contém as regras, título e conexões com js e o css-->
         <meta charset = "UFT-8"> <!-- Adequa a maioria dos caracteres em diferentes idiomas-->
+        <link rel="stylesheet" href="indexstyle.css">
         <title>Primeiro site</title><!-- O titítulo que aparecerá da nossa página no navegador-->
     </head>
     <body>
+        <ul id="menu"><!--Lista do menu-->
+            <li class="item"><a href="index.html">Home</a></li><!--item do menu-->
+            <li class="item"><a href="links.html">Links</a></li>
+            <li class="item"><a href="inputs.html">Formulário</a></li>
+            <li class="item"><a href="ListaeTabelas.html"> Listas e Tabelas</a></li>
+            <li class="item"><a href="linhasParagrafos.html">Linhas e parágrafos</a></li>
+            <li class="item"><a href="conexao.html">Conexão css</a></li>
+       
+        </ul>
         <center>
         <!--TAGS DE TÍTULO-->
         <h1>Primeiro Site Curso de Desenvolvimento Web</h1><!-- O número indica o tamanho do título sendo 1 maior .... 6 o menor-->
 
         <!-- Inserir imagem no site -->
-        <img src="src\imagens\mundo.png" alt="Mundo" width="300" height="200">
+        <img src="src\imagens\mundo.png" alt="Mundo" width="200" height="200"
+        style="border-radius:100px">
         <h6>Fonte: https://www.filantropia.ong/informacao/vamos-mudar-o-mundo</h6>
 
         <p>O primeiro código que todo desenvolvedor imprime na tela é o famoso <strong>hello world</strong>, isso geralmente é feito em cursos de desenvolvimento <em>back end</em> como <b>Programação Python, JAVA, Kotlin...</b>Mas nós, turma do Desenvolvimento Web não poderíamos ficar de fora, afinal <b>também somos Programadores!</b> Então:</p>
@@ -23,7 +34,7 @@
         <br><!--Pular o espaço de uma linha-->
         
         <!-- Inserir imagem no site -->
-        <img src="src\imagens\desenvolvedor.jpg" alt="Mundo" width="200" height="200">
+        <img src="src\imagens\desenvolvedor.jpg" alt="Mundo" width="200" height="200" style="border-radius:100px">
         </center>
        
         
@@ -44,7 +55,9 @@
                 <button>entrada de dados</button>
             </div>
            </center>
-        
+           <br>
+
+           <center><a href="links.html" target="_parent"><img src="src/imagens/SENAIlogo.jpg" alt="" width="150" height="50"></a></center>
 
     </body>
 

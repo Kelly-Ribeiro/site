@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--Chamada externa do css-->
+    <link rel="stylesheet" href="style.css">
+   
+    <!--Chamada interna do css-->
+    <style>
+        .titulo{
+            color:rgb(173, 6, 95);
+            
+        }
+        #inicio{
+            color:cadetblue;
+            font-size: 14;
+        }
+        p{
+            color:rgb(80, 88, 88);
+            font-size: 14;
+            text-align: left;
+        }
+        table{
+            color:rgb(13, 13, 184);
+            background-color: white;
+            border-color: aquamarine;
+        }
+        #tabela2{
+            color:rgb(125, 125, 246);
+            background-color: white;
+            border-color: rgb(46, 86, 73);
+        }
+    </style>
+</head>
+<body >
+    <ul id="menu"><!--Lista do menu-->
+        <li class="item"><a href="index.html">Home</a></li><!--item do menu-->
+        <li class="item"><a href="links.html">Links</a></li>
+        <li class="item"><a href="inputs.html">Formulário</a></li>
+        <li class="item"><a href="ListaeTabelas.html"> Listas e Tabelas</a></li>
+        <li class="item"><a href="linhasParagrafos.html">Linhas e parágrafos</a></li>
+        <li class="item"><a href="conexao.html">Conexão css</a></li>
+   
+    </ul>
+    <h1 class="titulo">Desing</h1>
+    <p1 id="inicio">O design é um elemento muito importante do desenvolvimento web, para que as páginas fiquem atraentes aos nossos clientes, e representem da melhor forma os produtos e a empresa dele aos seus consumidores.</p1>
+    <h1 class="titulo">Já imaginou</h1>
+    <p style="text-align: center">Se as páginas web fossem apenas em preto e branco, sem formatação de cores, fontes, decorações de texto, imagens não dimensionadas, como poderíamos criar páginas de modo a encantar os clientes?</p>
+    <h1 class="titulo">Tipos de conexões CSS</h1>
+    <p>A conexão do html com o css é feito de três formas diferentes:</p>
+    <ol style="text-align: left;">
+        <li>Externo</li>
+        <li>Interno</li>
+        <li>Em linha</li>
+    </ol>
+    <table width="75%"border="5" align="center">
+        <tr>
+            <td >Externo</td>
+            <td>Quando tenho um arquivo .css no mesmo diretório do meu projeto. E realizo a conexão utilizando a tag link no cabeçalho head, definindo o parâmetro href com o nome do meu arquivo Ex:style.css </td>
+        </tr>
+        <tr>
+            <td>Interno</td>
+            <td>O interno é criado por meio da tag style, em nosso cabeçalho head, tem uma estrutura similar ao do arquivo externo, porém reside no meu documento html</td>
+        </tr>
+        <tr>
+            <td>Em linha</td>
+            <td>A conexão em linha é realizada dentro da tag de abertura da qual você deseja estilizar, com o atributo style="", entre as aspas passe as propriedades que deseja estilizar, sempre separadas por ponto e vírgula. Ex: style="color:red; font-size:18".</td>
+        </tr>
+    </table>
+    <p>Todos os comandos do css devem finalizar com ponto e vírgula(;).</p>
+    <h1 class="titulo" style="font-size:13;">Referenciando os elementos para estilização no CSS</h1>
+    <h4>Os elementos podem ser referenciados de três formas diferentes: pela identificação, pela classe e pelo próprio nome:
+    </h4>
+    <table width="75%"border="5" align="center" id="tabela2">
+        <tr>
+            <td>Identificação</td>
+            <td>Todo elemento tem um id único que é uma identificação do elemento. O id é uma identificação definida na tag de abertura como id="". No css para usar o id de um elemento para estilizá-lo basta colocar #idDoElemento{}. Entre as chaves passamos os parâmetros para a estilização. </td>
+        </tr>
+        <tr>
+            <td>Classe</td>
+            <td>A classe identifica não somente um elemento, mas um grupo de elementos, desde que definamos para todos a mesma classe, pelo nome que é atribuído a ela. Assim como o id, deve ser definido na tag de abertura dos elementos: class="",geralmente definimos por seu nome a sua função . No css para usar a classe de um elemento para estilizá-lo basta colocar .classDoElemento{}. Entre as chaves passamos os parâmetros para a estilização.</td>
+        </tr>
+        <tr>
+            <td>Nome da tag</td>
+            <td>Ao utilizar o nome da tag propriamente dito, ex: p, body, h1, estilizamos todas as tags deste tipo que não possuem id, ou class. No css para usar o nome de um elemento para estilizá-lo basta colocar nomeElemento{}. Entre as chaves passamos os parâmetros para a estilização.</td>
+        </tr>
+    </table>
+    <p>Importante: A ordem de precedência de aplicação de estilização por prioridade é em linha, interno e por último externo.</p>
+</body>
+</html>
