@@ -24,5 +24,17 @@ tr,td{
 #cabecalho{
 /*colocando uma cor na primeira*/  
 color:rgb(10, 11, 10);/*cor da letra*/
-background-color:rgb(226,135,67);/*cor do fundo/*
+background-color:rgb(226,135,67);/*cor do fundo*/
+}
+#resultado{
+  color: crimson;
+}
+#button{
+  width: 10%;
+  height: 12%;
+}
+#calculadora{
+  
+  height: 1%;
+
 }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Conexão do JavaScript dentro do html-->
+    <script src="script.js"></script>
+</head>
+<body style="text-align: left;">
+    <h1>JavaScript no desenvolvimento WEB</h1>
+    <p>JavaScript permite criar interfaces de usuário interativas. Páginas web podem responder a ações do usuário, como cliques, movimentos do mouse, preenchimento de formulários, etc., sem a necessidade de recarregar a página.</p>
+    <h1>DOM - Document Object Model</h1>
+    <p>Criado automaticamente pelo navegador ao carregar a página,e assim podemos manipular os elementos criados no HTML. O JavaScript permite a manipulação dinâmica do DOM, que representa a estrutura hierárquica de elementos HTML na página. Isso possibilita adicionar, remover ou modificar elementos e atributos na página em tempo real.</p>
+    <h1>CONEXÃO</h1>
+    <p>Adicionem aqui </p>
+
+    <h1>Variáveis</h1>
+    <p>Coloque a definição e variável aqui</p>
+    <p>Exemplo de como criar uma variável em java:
+        <br>
+    var minhaVariavel = "Olá, mundo!";<br>
+    E para realizar a impressão no console, utilizamo o comando console.log(minhaVariavel);
+    <br>
+    Todo comando deve terminar com ; ao final.
+    Adicionar as regras de nomeação da variável.
+    </p>
+    <h1>Tipos de dados </h1>
+    <p>Toda a variável armazena uma informação, essa informação tem uma tipologia ou formato.
+
+        Complete com uma tabela
+    </p>
+    <h1>Operadores</h1>
+    <p>Operadores são símbolos que permitem manipular as informações, e temos três tipos: artiméticos, lógicos e relacionais
+        Construa uma tabela com todas as funções
+    </p>
+    <h1> teste nossa primeira calculadora em JavaScript</h1>
+    <div class="calculadora">
+        
+            <!--Cx de entrada para digitar nº-->
+        <div>
+            <input type="number" id="numero1" placeholder="Digite o primeiro número">
+        </div>
+
+        <div>
+            <input type="number" id="numero2" placeholder="Digite o segundo número">
+
+        </div>
+            <!--Criando os botões e inserindo função onclick-->
+        <div>
+            <button onclick="calcular('soma')">soma</button>
+        </div>
+        <div>
+            <button onclick="calcular('subtracao')">Subtração</button>
+        </div>
+        <div>
+            <button onclick="calcular('multiplicacao')">multiplicacao</button></div>
+        
+            <button onclick="calcular('divisao')">Divisão</button>
+        </div>
+            <!--Tag para aparecer resultado-->
+            <p >Resultado</p>
+            <p id="resultado"></p>
+    
+    </div> 
+
+</body>
+</html>
